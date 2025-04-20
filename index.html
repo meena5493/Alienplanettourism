@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alien Planet Tourism</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Inter&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background: linear-gradient(to bottom right, #1b3b6f, #a3c9e2);
+      color: white;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      padding: 5rem 2rem 3rem;
+      background: rgba(0, 0, 0, 0.5);
+    }
+    header h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+    .cta {
+      margin-top: 2rem;
+    }
+    .cta a {
+      text-decoration: none;
+      background: #00e5ff;
+      color: black;
+      padding: 0.8rem 1.5rem;
+      margin: 0 0.5rem;
+      border-radius: 30px;
+      transition: 0.3s;
+    }
+    .cta a:hover {
+      background: #00c1e5;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      font-family: 'Orbitron', sans-serif;
+    }
+    .destinations, .attractions {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      text-align: center;
+    }
+    .destination, .attraction {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 1.5rem;
+      border-radius: 15px;
+      backdrop-filter: blur(10px);
+    }
+    .destination img, .attraction img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🌌 Alien Planet Tourism</h1>
+    <p>Explore New Worlds and Book Your Intergalactic Adventure</p>
+    <div class="cta">
+      <a href="#destinations">Explore Destinations</a>
+      <a href="#book">Book Your Trip</a>
+    </div>
+  </header>
+
+  <section id="destinations">
+    <h2>Featured Alien Destinations</h2>
+    <div class="destinations">
+      <div class="destination">
+        <img src="https://via.placeholder.com/500x300/1f1f1f/ffffff?text=Zerovon" alt="Zerovon">
+        <h3>Zerovon</h3>
+        <p>A gas giant with floating cities and clouds you can sky-dive through.</p>
+      </div>
+      <div class="destination">
+        <img src="https://via.placeholder.com/500x300/1f1f1f/ffffff?text=Zorath+7" alt="Zorath 7">
+        <h3>Zorath 7</h3>
+        <p>An icy world with bioluminescent flora and freezing hot springs.</p>
+      </div>
+      <div class="destination">
+        <img src="https://via.placeholder.com/500x300/1f1f1f/ffffff?text=Drakonis" alt="Drakonis">
+        <h3>Drakonis</h3>
+        <p>A fiery, lava-filled world with extreme tourism activities.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="attractions">
+    <h2>What to Do on These Alien Worlds</h2>
+    <div class="attractions">
+      <div class="attraction">
+        <h3>Zero-Gravity Swimming Pools</h3>
+        <p>Swim in the weightless pools of Zerovon, floating among the clouds.</p>
+      </div>
+      <div class="attraction">
+        <h3>Alien Wildlife Safaris</h3>
+        <p>Join a safari and meet strange new creatures on the exotic planet Zorath 7.</p>
+      </div>
+      <div class="attraction">
+        <h3>Asteroid Mining Tours</h3>
+        <p>Go mining on Drakonis and uncover valuable space minerals!</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="book">
+    <h2>Book Your Intergalactic Trip</h2>
+    <p>Ready to embark on an adventure like no other? Choose your destination and travel dates, and our spacecrafts will take you there!</p>
+    <a href="#" class="cta">Book Your Trip</a>
+  </section>
+
+  <footer>
+    <p>© 2025 | Explore the Unknown</p>
+  </footer>
+</body>
+</html>
